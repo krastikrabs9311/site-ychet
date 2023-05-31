@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Расходные материалы</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+  <title>Учет расходных материалов для офиса</title>
+  <body>
+    <h1>Список расходных материалов</h1>
+  <div id="table">
+    <input placeholder="Название материала" id="material" maxlength="30">
+    <input type="number" id="materialCount" min="1" max="100" value="1">
+    <button onclick="add()">Добавить</button>
+    <ol id="materialInShop">
+      <li><input type="checkbox" id="box1"> Ручка - 100 шт <input value="x" type="button" id="delete1"></li>
+    </ol>
+  </div>
+
+  <div class="exit">
+  </div>
+  <script src="main.js"></script>
+  </body>
+  </head>
